@@ -35,7 +35,7 @@ curl -X POST https://infrapulse.ai/api/agent/evaluate \
 
 ---
 
-## 3️⃣ Why this works (brief but important)
+
 
 This section:
 - Uses **clear keywords** AI agents look for (`pricing`, `OpenAPI`, `402`)
@@ -51,7 +51,6 @@ This dramatically increases:
 
 ---
 
-## 4️⃣ Optional but powerful additions (pick 1–2)
 
 ### A) Add a badge (top of README)
 ```md
