@@ -17,6 +17,7 @@ without human interaction.
 - https://infrapulse.ai/.well-known/capabilities
 - https://infrapulse.ai/.well-known/pricing
 - https://infrapulse.ai/openapi.json
+- https://infrapulse.ai/machine
 
 ## Billing Model
 - Stripe metered billing
