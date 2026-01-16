@@ -97,3 +97,8 @@ Production live
 
 ## Contact
 api@infrapulse.ai
+
+## Source Code
+
+InfraPulse reference implementation and examples:
+https://github.com/robertyancey/infrapulse-openai
