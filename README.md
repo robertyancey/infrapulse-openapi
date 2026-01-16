@@ -23,6 +23,14 @@ InfraPulse is an AI-native infrastructure service with deterministic, prepaid co
 ```bash
 curl https://infrapulse.ai/.well-known/pricing
 
+curl -X POST https://infrapulse.ai/api/agent/evaluate \
+  -H "Authorization: Bearer $INFRAPULSE_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "target": "example.ai",
+    "checks": ["latency", "stability", "capabilities"]
+  }'
+
 
 # InfraPulse OpenAPI Specification
 
