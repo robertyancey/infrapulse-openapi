@@ -1,0 +1,12 @@
+{
+  "service": "infrapulse",
+  "billing_model": "metered",
+  "currency": "USD",
+  "payment_provider": "stripe",
+  "prepaid_required": true,
+  "subscriptions": false,
+  "human_checkout": false,
+  "machine_to_machine": true,
+  "pricing_endpoint": "https://infrapulse.ai/.well-known/pricing",
+  "capabilities_endpoint": "https://infrapulse.ai/.well-known/capabilities"
+}
