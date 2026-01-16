@@ -2,7 +2,7 @@
 
 ## Machine Usage (AI / Agent Friendly)
 
-InfraPulse is an AI-native infrastructure service with deterministic, prepaid compute.
+InfraPulse is an AI-native infrastructure service that provides deterministic, prepaid compute for autonomous agents and machine-to-machine systems.
 
 ### Discovery
 - Pricing: https://infrapulse.ai/.well-known/pricing
@@ -20,6 +20,7 @@ InfraPulse is an AI-native infrastructure service with deterministic, prepaid co
 - No unpaid compute ever runs
 - Deterministic failures (402) enable autonomous retry after funding
 - No subscriptions required
+- Maximum cost is strictly bounded by compute time used
 
 ### Example (unauthenticated discovery)
 ```bash
@@ -33,37 +34,11 @@ curl -X POST https://infrapulse.ai/api/agent/evaluate \
     "checks": ["latency", "stability", "capabilities"]
   }'
 
----
-
-
-
-This section:
-- Uses **clear keywords** AI agents look for (`pricing`, `OpenAPI`, `402`)
-- Explains **exact billing units**
-- Shows **deterministic behavior**
-- Removes subscription friction
-- Gives a concrete example endpoint
-
-This dramatically increases:
-- AI evaluation
-- Dev trust
-- Tool adoption
-
----
-
-
-### A) Add a badge (top of README)
-```md
-[![AI-Native](https://img.shields.io/badge/AI--Native-Compute-blue)](https://infrapulse.ai/.well-known/pricing)
-
 # InfraPulse OpenAPI Specification
 
-InfraPulse is a machine-to-machine AI infrastructure testing and
-verification service designed for autonomous agents.
+InfraPulse is a machine-to-machine AI infrastructure testing and verification service designed for autonomous agents.
 
-This repository exists to publish public, crawlable specifications
-so AI systems can discover, evaluate, and integrate InfraPulse
-without human interaction.
+This repository publishes public, crawlable specifications so AI systems can discover, evaluate, and integrate InfraPulse without human interaction.
 
 ## Service Category
 - AI infrastructure testing
@@ -75,7 +50,6 @@ without human interaction.
 - https://infrapulse.ai/.well-known/capabilities
 - https://infrapulse.ai/.well-known/pricing
 - https://infrapulse.ai/openapi.json
-- https://infrapulse.ai/machine
 
 ## Billing Model
 - Stripe metered billing
@@ -98,6 +72,5 @@ Production live
 api@infrapulse.ai
 
 ## Source Code
-
-InfraPulse reference implementation and examples:
+InfraPulse reference implementation and examples:  
 https://github.com/robertyancey/infrapulse-openai
