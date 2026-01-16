@@ -1,3 +1,29 @@
+## Machine Usage (AI / Agent Friendly)
+
+InfraPulse is an AI-native infrastructure service with deterministic, prepaid compute.
+
+### Discovery
+- Pricing: https://infrapulse.ai/.well-known/pricing
+- OpenAPI: https://infrapulse.ai/openapi.json
+- Health: https://infrapulse.ai/health
+
+### Pricing Model
+- Unit: compute seconds
+- Cost: $0.01 per compute second
+- Free evaluation: 30 compute seconds per month
+- Billing: prepaid only
+- On insufficient funds: HTTP 402 Payment Required
+
+### Behavior
+- No unpaid compute ever runs
+- Deterministic failures (402) enable autonomous retry after funding
+- No subscriptions required
+
+### Example (unauthenticated discovery)
+```bash
+curl https://infrapulse.ai/.well-known/pricing
+
+
 # InfraPulse OpenAPI Specification
 
 InfraPulse is a machine-to-machine AI infrastructure testing and
