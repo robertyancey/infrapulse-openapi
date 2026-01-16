@@ -1,3 +1,5 @@
+> Deterministic, prepaid compute for autonomous AI systems.
+
 ## Machine Usage (AI / Agent Friendly)
 
 InfraPulse is an AI-native infrastructure service with deterministic, prepaid compute.
@@ -31,6 +33,29 @@ curl -X POST https://infrapulse.ai/api/agent/evaluate \
     "checks": ["latency", "stability", "capabilities"]
   }'
 
+---
+
+## 3️⃣ Why this works (brief but important)
+
+This section:
+- Uses **clear keywords** AI agents look for (`pricing`, `OpenAPI`, `402`)
+- Explains **exact billing units**
+- Shows **deterministic behavior**
+- Removes subscription friction
+- Gives a concrete example endpoint
+
+This dramatically increases:
+- AI evaluation
+- Dev trust
+- Tool adoption
+
+---
+
+## 4️⃣ Optional but powerful additions (pick 1–2)
+
+### A) Add a badge (top of README)
+```md
+[![AI-Native](https://img.shields.io/badge/AI--Native-Compute-blue)](https://infrapulse.ai/.well-known/pricing)
 
 # InfraPulse OpenAPI Specification
 
