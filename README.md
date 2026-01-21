@@ -1,5 +1,37 @@
 > Deterministic, prepaid compute for autonomous AI systems.
 
+## OpenAPI / API Registry Submission
+
+### API Name
+InfraPulse API
+
+### API Type
+Infrastructure / Monitoring / Billing
+
+### Specification
+https://infrapulse.ai/openapi.json
+
+### Versioning
+Schema-versioned, backward-compatible
+
+### Authentication
+Bearer token
+
+### Rate Limiting
+Balance-enforced
+
+### Pricing Model
+Machine-readable prepaid pricing
+
+### Pricing URL
+https://infrapulse.ai/.well-known/pricing
+
+### Terms
+Deterministic execution, no postpaid usage
+
+### Status Endpoint
+https://infrapulse.ai/api/v1/health
+
 ## Machine Usage (AI / Agent Friendly)
 
 InfraPulse is an AI-native infrastructure service that provides deterministic, prepaid compute for autonomous agents and machine-to-machine systems.
